@@ -8,4 +8,3 @@ C:\Users\Gil\source\repos\12.12.2019_homework_operator_overloading\12.12.2019_ho
 C:\Users\Gil\source\repos\12.12.2019_homework_operator_overloading\12.12.2019_homework_operator_overloading\obj\Debug\12.12.2019_homework_operator_overloading.csproj.GenerateResource.cache
 C:\Users\Gil\source\repos\12.12.2019_homework_operator_overloading\12.12.2019_homework_operator_overloading\obj\Debug\12.12.2019_homework_operator_overloading.exe
 C:\Users\Gil\source\repos\12.12.2019_homework_operator_overloading\12.12.2019_homework_operator_overloading\obj\Debug\12.12.2019_homework_operator_overloading.pdb
-c:\Users\Gil\source\repos\12.12.2019_homework_operator_overloading\12.12.2019_homework_operator_overloading\obj\Debug\12.12.2019_homework_operator_overloading.csproj.CoreCompileInputs.cache

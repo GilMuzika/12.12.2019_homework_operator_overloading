@@ -30,6 +30,7 @@ namespace _12._12._2019_homework_operator_overloading
             cmbCamps1.Name = "cmbCamps1";
             cmbCamps2.Name = "cmbCamps2";
 
+
             cmbCamps1.SelectedIndexChanged += (object sender, EventArgs e) => 
                 {
 
@@ -200,7 +201,14 @@ namespace _12._12._2019_homework_operator_overloading
 
         private void btnTreatCamps_Click(object sender, EventArgs e)
         {
-            Treat2Camps((cmbCamps1.SelectedItem as ComboItem<Camp>).Item, (cmbCamps2.SelectedItem as ComboItem<Camp>).Item);
+            try
+            {
+                Treat2Camps((cmbCamps1.SelectedItem as ComboItem<Camp>).Item, (cmbCamps2.SelectedItem as ComboItem<Camp>).Item);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"{ex.Message}\n\n Please lelect a value in both ComboItems.");
+            }
         }
     }
 }
